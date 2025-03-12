@@ -23,6 +23,7 @@ namespace DataAccessLayer.UnitOfWorkFolder
         private LikeRepository _likeRepository;
         private PostRepository _postRepository;
         private UserRepository _userRepository;
+        private SigningKeyRepository _signingKeyRepository;
 
         public CategoryRepository categoryRepository => _categoryRepository ??= new CategoryRepository(_applicationDbContext);
 
@@ -33,6 +34,7 @@ namespace DataAccessLayer.UnitOfWorkFolder
         public PostRepository postRepository => _postRepository ??= new PostRepository(_applicationDbContext);
 
         public UserRepository userRepository => _userRepository ??= new UserRepository(_applicationDbContext);
+        public SigningKeyRepository signingKeyRepository => _signingKeyRepository ??= new SigningKeyRepository(_applicationDbContext);
 
         public async Task<int> CompleteAsync()
         {

@@ -25,6 +25,15 @@ namespace BusinessLogicLayer.Service
                 message = "Email Cannot be empty";
                 return null;
             }
+            if (string.IsNullOrWhiteSpace(user.Password))
+            {
+                message = "Email Cannot be empty";
+                return null;
+            }
+            // Hash the password using BCrypt.
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(user.Password);
+
+            user.Password = hashedPassword;
 
             User result = _unitOfWork.userRepository.CreateUser(user);
             message = "Successful";

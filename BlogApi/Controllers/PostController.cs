@@ -3,6 +3,7 @@ using BusinessLogicLayer.UnitOfWorkServicesFolder;
 using DomainLayer.DTO.PostDTO;
 using DomainLayer.DTO.UserDTO;
 using DomainLayer.Models.BlogModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApi.Controllers
@@ -22,14 +23,28 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetAllPosts()
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             return Ok(_unitOfWork.postService.GetAllPost());
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetById(int id)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             Post? post = _unitOfWork.postService.GetPost(id);
 
             if (post == null)
@@ -44,8 +59,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetByAuthorId(int AuthorId)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             List<Post> postList = _unitOfWork.postService.GetPostByAuthorId(AuthorId, out string message);
 
             if (postList == null)
@@ -57,9 +79,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public IActionResult CreatePost([FromBody] CreatePostRequest post)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
 
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
 
             Post mappedPost = _postMapper.MapCreatePostRequestToUser(post);
 
@@ -77,8 +105,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public IActionResult UpdatePost([FromBody] UpdatePostRequest post)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             Post mappedPost = _postMapper.MapUpdatePostRequestToUser(post);
 
             Post? PostUpdated = _unitOfWork.postService.UpdatePost(mappedPost, out string message);
@@ -94,8 +129,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpDelete]
+        [Authorize]
         public IActionResult DeleteUser([FromBody] DeletePostRequest post)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             Post mappedPost = _postMapper.MapDeletePostRequestToCategory(post);
 
             bool PostDeleted = _unitOfWork.postService.DeletePost(mappedPost.Id, out string message);

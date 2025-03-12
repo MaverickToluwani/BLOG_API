@@ -15,5 +15,6 @@ namespace BusinessLogicLayer.UnitOfWorkServicesFolder
         LikeService likeService { get; }
         PostService postService { get; }
         UserService userService { get; }
+        AuthService authService { get;  }
     }
 }

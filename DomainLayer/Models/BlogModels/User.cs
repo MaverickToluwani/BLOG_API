@@ -10,6 +10,7 @@ namespace DomainLayer.Models.BlogModels
         public string Username { get; set; }
         public string Email { get; set; }
         public string Role { get; set; }
+        public string? Password { get; set; }
         public DateTime CreateAt { get; set; }
         public DateTime UpdateAt { get; set; }
         public ICollection<Like> Likes { get; set; }

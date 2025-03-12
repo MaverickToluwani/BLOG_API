@@ -14,6 +14,7 @@ namespace DataAccessLayer.UnitOfWorkFolder
         LikeRepository likeRepository { get;  }
         PostRepository postRepository { get;  }
         UserRepository userRepository { get; }
+        SigningKeyRepository signingKeyRepository { get;  }
 
         Task<int> CompleteAsync();
     }

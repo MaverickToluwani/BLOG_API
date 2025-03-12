@@ -1,12 +1,581 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\controllers\\jwkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\jwkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\businesslogiclayer1\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\repositries\\signingkeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\signingkeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\repositries\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\repositries\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\likecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\backgrounds\\keyrotaionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\backgrounds\\keyrotaionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\unitofworkfolder\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\unitofworkfolder\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\businesslogiclayer1\\unitofworkservicesfolder\\unitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\unitofworkservicesfolder\\unitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\businesslogiclayer1\\unitofworkservicesfolder\\iunitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\unitofworkservicesfolder\\iunitofworkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\migrations\\20250312201928_fi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\migrations\\20250312201928_fi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\businesslogiclayer1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\businesslogiclayer1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\domainlayer\\dto\\userdto\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userdto\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\businesslogiclayer1\\mappermethods\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\mappermethods\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\domainlayer\\dto\\authdto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\authdto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\domainlayer\\dto\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\unitofworkfolder\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\unitofworkfolder\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\irepositories\\isigningkeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\isigningkeyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\domainlayer\\models\\auth\\signingkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\auth\\signingkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\businesslogiclayer1\\service\\categoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50CE7FA8-AC5D-4B5D-866F-6260B96C0F65}|BusinessLogicLayer1\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer1\\service\\categoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\domainlayer\\dto\\authdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\authdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\domainlayer\\models\\blogmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\dataaccesslayer1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180856DA-6AF1-4992-BEA2-A28C34D77D3B}|DataAccessLayer1\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\domainlayer\\models\\blogmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEAC2F7-E3FC-44D7-ADDD-3B494C3BB43C}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\blogmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|c:\\users\\administrator\\documents\\final\u002Bproject\\blog_api\\blogapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBE630EC-F2A2-4D8C-B1E4-F797AD3C8AFC}|BlogApi\\BlogApi.csproj|solutionrelative:blogapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SigningKeyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Repositries\\SigningKeyRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\SigningKeyRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Repositries\\SigningKeyRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Repositries\\SigningKeyRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:16:21.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JWKSController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\JWKSController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\JWKSController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\JWKSController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\JWKSController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:14:42.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:46:54.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\AuthService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\Service\\AuthService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:57:30.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Repositries\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Repositries\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Repositries\\UserRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Repositries\\UserRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAACwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:22:28.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAADwv38AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:51:13.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAmwE4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:08:09.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Program.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Program.cs",
+              "RelativeToolTip": "BlogApi\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswC8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:33:28.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\PostController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAADwv5UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:40:28.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LikeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\LikeController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\LikeController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\LikeController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\LikeController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv3YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:42:19.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\appsettings.json",
+              "RelativeToolTip": "BlogApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T14:50:29.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "BlogApi\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAADwv2cAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:43:56.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\UnitOfWorkFolder\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\UnitOfWorkFolder\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\UnitOfWorkFolder\\IUnitOfWork.cs",
+              "RelativeToolTip": "DataAccessLayer1\\UnitOfWorkFolder\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:26:14.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KeyRotaionService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Backgrounds\\KeyRotaionService.cs",
+              "RelativeDocumentMoniker": "BlogApi\\Backgrounds\\KeyRotaionService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Backgrounds\\KeyRotaionService.cs",
+              "RelativeToolTip": "BlogApi\\Backgrounds\\KeyRotaionService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:51:45.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUnitOfWorkService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\UnitOfWorkServicesFolder\\IUnitOfWorkService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\UnitOfWorkServicesFolder\\IUnitOfWorkService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\UnitOfWorkServicesFolder\\IUnitOfWorkService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\UnitOfWorkServicesFolder\\IUnitOfWorkService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:26:33.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitOfWorkService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\UnitOfWorkServicesFolder\\UnitOfWorkService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\UnitOfWorkServicesFolder\\UnitOfWorkService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\UnitOfWorkServicesFolder\\UnitOfWorkService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\UnitOfWorkServicesFolder\\UnitOfWorkService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:41:15.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\UserDTO\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserDTO\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\UserDTO\\CreateUserRequest.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\UserDTO\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:53:13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250312201928_Fi.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Migrations\\20250312201928_Fi.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Migrations\\20250312201928_Fi.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Migrations\\20250312201928_Fi.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Migrations\\20250312201928_Fi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:19:34.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\PostService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\PostService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\PostService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\Service\\PostService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:57:08.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\UserService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\Service\\UserService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwC4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:04:03.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\AuthDTO\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\AuthDTO\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\AuthDTO\\LoginResponse.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\AuthDTO\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:32:29.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\UserDTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserDTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\UserDTO\\UserDto.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\UserDTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:36:16.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\MapperMethods\\UserMapper.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:04:27.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\UnitOfWorkFolder\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\UnitOfWorkFolder\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\UnitOfWorkFolder\\UnitOfWork.cs",
+              "RelativeToolTip": "DataAccessLayer1\\UnitOfWorkFolder\\UnitOfWork.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:26:49.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:24:13.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISigningKeyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\IRepositories\\ISigningKeyRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\IRepositories\\ISigningKeyRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\IRepositories\\ISigningKeyRepository.cs",
+              "RelativeToolTip": "DataAccessLayer1\\IRepositories\\ISigningKeyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:13:23.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoriesService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\CategoriesService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer1\\Service\\CategoriesService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BusinessLogicLayer1\\Service\\CategoriesService.cs",
+              "RelativeToolTip": "BusinessLogicLayer1\\Service\\CategoriesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:22:52.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SigningKey.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\Models\\Auth\\SigningKey.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Auth\\SigningKey.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\Models\\Auth\\SigningKey.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Auth\\SigningKey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:11:52.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\AuthDTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\AuthDTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\DTO\\AuthDTO\\LoginDTO.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\AuthDTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:18:49.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\Models\\BlogModels\\User.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\User.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\Models\\BlogModels\\User.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:03:16.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer1\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:54:32.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlogApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\BlogApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlogApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T14:53:02.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\Models\\BlogModels\\Role.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\BlogModels\\Role.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Final\u002BProject\\BLOG_API\\DomainLayer\\Models\\BlogModels\\Role.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\BlogModels\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T14:51:55.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

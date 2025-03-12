@@ -20,7 +20,8 @@ namespace BusinessLogicLayer.MapperMethods
                 Email = CreateUserDto.Email,
                 Role = CreateUserDto.Role,
                 CreateAt = DateTime.UtcNow,
-                UpdateAt = DateTime.UtcNow
+                UpdateAt = DateTime.UtcNow,
+                Password = CreateUserDto.Password
             };
         }
         public User MapUpdateUserRequestToUser(UpdateUserRequest updateRequestUserDto)

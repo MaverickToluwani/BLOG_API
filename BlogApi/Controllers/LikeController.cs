@@ -5,6 +5,7 @@ using BusinessLogicLayer.UnitOfWorkServicesFolder;
 using DomainLayer.DTO.LikeDTO;
 using DomainLayer.DTO.PostDTO;
 using DomainLayer.Models.BlogModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApi.Controllers
@@ -22,14 +23,28 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetAllLikes()
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             return Ok(_unitOfWork.likeService.GetAllLikes());
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetLikeByUserId(int Userid)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             List<Like> UserLikes = _unitOfWork.likeService.GetLikeByUserId(Userid, out string message);
 
             if (!UserLikes.Any())
@@ -41,8 +56,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetLikeByPostId(int PostId)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             List<Like> PostLikes = _unitOfWork.likeService.GetLikeByUserId(PostId, out string message);
 
             if (!PostLikes.Any())
@@ -54,8 +76,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpDelete]
+        [Authorize]
         public IActionResult Unlike([FromBody] LikeDto LikeDetails)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             Like mappedLike = _likeMapper.MapLikeDtoToLike(LikeDetails);
 
             bool PostDeleted = _unitOfWork.likeService.UnlikePost(mappedLike, out string message);
@@ -65,8 +94,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetPostByUserIdAndPostId(LikeDto LikeDetails)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             Like mappedLike = _likeMapper.MapLikeDtoToLike(LikeDetails);
 
             Like LikedPostByUser = _unitOfWork.likeService.GetPostByUserIdAndPostId(mappedLike, out string message);

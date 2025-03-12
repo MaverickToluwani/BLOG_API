@@ -320,3 +320,5 @@ C:\Users\Administrator\Documents\Final+Project\BLOG_API\BlogApi\obj\Debug\net8.0
 C:\Users\Administrator\Documents\Final+Project\BLOG_API\BlogApi\obj\Debug\net8.0\BlogApi.pdb
 C:\Users\Administrator\Documents\Final+Project\BLOG_API\BlogApi\obj\Debug\net8.0\BlogApi.genruntimeconfig.cache
 C:\Users\Administrator\Documents\Final+Project\BLOG_API\BlogApi\obj\Debug\net8.0\ref\BlogApi.dll
+C:\Users\Administrator\Documents\Final+Project\BLOG_API\BlogApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Administrator\Documents\Final+Project\BLOG_API\BlogApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

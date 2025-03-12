@@ -5,6 +5,7 @@ using DomainLayer.DTO;
 using DomainLayer.DTO.UserDTO;
 using DomainLayer.Models;
 using DomainLayer.Models.BlogModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApi.Controllers
@@ -23,14 +24,28 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetAllUsers()
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             return Ok(_unitOfWork.userService.GetAllUsers());
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetById(int id)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             User? user = _unitOfWork.userService.GetUser(id);
 
             if (user == null)
@@ -45,8 +60,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult GetByRole(string role)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             List<User> user = _unitOfWork.userService.GetUserByRole(role, out string message);
 
             if (user == null)
@@ -60,7 +82,6 @@ namespace BlogApi.Controllers
         [HttpPost]
         public IActionResult CreateUser([FromBody] CreateUserRequest user)
         {
-
             User mappedUser = _userMapper.MapCreateUserRequestToUser(user);
 
 
@@ -75,9 +96,16 @@ namespace BlogApi.Controllers
             return Ok(CreatedCategoryDto);
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult UpdateUser([FromBody] UpdateUserRequest user)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             User mappedUser = _userMapper.MapUpdateUserRequestToUser(user);
 
             User? UserUpdated = _unitOfWork.userService.UpdateUser(mappedUser, out string message);
@@ -93,8 +121,15 @@ namespace BlogApi.Controllers
         }
 
         [HttpDelete]
+        [Authorize]
         public IActionResult DeleteUser([FromBody] DeleteUserRequest user)
         {
+            var emailClaim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Email);
+
+            if (emailClaim == null)
+            {
+                return Unauthorized(new { message = "Invalid token: Email claim missing." });
+            }
             User mappedUser = _userMapper.MapDeleteUserRequestToCategory(user);
 
             bool UserDeleted = _unitOfWork.userService.DeleteUser(mappedUser.Id, out string message);
